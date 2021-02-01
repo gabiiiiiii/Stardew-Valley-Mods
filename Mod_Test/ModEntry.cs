@@ -5,6 +5,8 @@ using StardewModdingAPI.Events;
 using StardewModdingAPI.Utilities;
 using StardewValley;
 
+// this mod outputs the user input to the SMAPI terminal
+
 namespace Mod_Test
 {
     /// <summary>The mod entry point.</summary>
