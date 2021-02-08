@@ -17,90 +17,96 @@ namespace Everyone_is_Willy
             
         }
 
-        /*
         public bool CanLoad<T>(IAssetInfo asset)
         {
-            if (asset.AssetNameEquals("Portraits/Caroline"))
+            //Abigail
+            if (asset.AssetNameEquals("Characters/Abigail") || asset.AssetNameEquals("Portraits/Abigail"))
             {
                 return true;
             }
 
-            return false;
-        }
-
-        public T Load<T>(IAssetInfo asset)
-        {
-            if (asset.AssetNameEquals("Portraits/Caroline"))
+            //Alex
+            if (asset.AssetNameEquals("Characters/Alex") || asset.AssetNameEquals("Portraits/Alex"))
             {
-                return this.Helper.Content.Load<T>("Portraits/Willy", ContentSource.GameContent);
+                return true;
             }
 
-            throw new InvalidOperationException($"Unexpected asset '{asset.AssetName}'.");
-        } */
-
-        public bool CanLoad<T>(IAssetInfo asset)
-        {
             //Caroline
-            if (asset.AssetNameEquals("Characters/Caroline"))
+            if (asset.AssetNameEquals("Characters/Caroline") || asset.AssetNameEquals("Portraits/Caroline"))
             {
                 return true;
             }
 
-            if (asset.AssetNameEquals("Portraits/Caroline"))
+            //Clint
+            if (asset.AssetNameEquals("Characters/Clint") || asset.AssetNameEquals("Portraits/Clint"))
+            {
+                return true;
+            }
+
+            //Demetrius
+            if (asset.AssetNameEquals("Characters/Demetrius") || asset.AssetNameEquals("Portraits/Demetrius"))
+            {
+                return true;
+            }
+
+            //Elliott
+            if (asset.AssetNameEquals("Characters/Elliott") || asset.AssetNameEquals("Portraits/Elliott"))
             {
                 return true;
             }
 
             //Jodi
-            if (asset.AssetNameEquals("Characters/Jodi"))
-            {
-                return true;
-            }
-
-            if (asset.AssetNameEquals("Portraits/Jodi"))
+            if (asset.AssetNameEquals("Characters/Jodi") || asset.AssetNameEquals("Portraits/Jodi"))
             {
                 return true;
             }
 
             //Kent
-            if (asset.AssetNameEquals("Characters/Kent"))
-            {
-                return true;
-            }
-
-            if (asset.AssetNameEquals("Portraits/Kent"))
+            if (asset.AssetNameEquals("Characters/Kent") || asset.AssetNameEquals("Portraits/Kent"))
             {
                 return true;
             }
 
             //Shane
-            if (asset.AssetNameEquals("Characters/Shane"))
-            {
-                return true;
-            }
-
-            if (asset.AssetNameEquals("Portraits/Shane"))
+            if (asset.AssetNameEquals("Characters/Shane") || asset.AssetNameEquals("Portraits/Shane"))
             {
                 return true;
             }
 
             //Robin
-            if (asset.AssetNameEquals("Characters/Shane"))
+            if (asset.AssetNameEquals("Characters/Shane") || asset.AssetNameEquals("Portraits/Shane"))
             {
                 return true;
             }
-
-            if (asset.AssetNameEquals("Portraits/Shane"))
-            {
-                return true;
-            }
-
 
             return false;
         }
 
         public T Load<T>(IAssetInfo asset)
         {
+
+            // Abigail
+            if (asset.AssetNameEquals("Characters/Abigail"))
+            {
+                return this.Helper.Content.Load<T>("Characters/Willy", ContentSource.GameContent);
+            }
+
+            if (asset.AssetNameEquals("Portraits/Abigail"))
+            {
+                return this.Helper.Content.Load<T>("Portraits/Willy", ContentSource.GameContent);
+            }
+
+            // Alex
+            if (asset.AssetNameEquals("Characters/Alex"))
+            {
+                return this.Helper.Content.Load<T>("Characters/Willy", ContentSource.GameContent);
+            }
+
+            if (asset.AssetNameEquals("Portraits/Alex"))
+            {
+                return this.Helper.Content.Load<T>("Portraits/Willy", ContentSource.GameContent);
+            }
+
             // Caroline
             if (asset.AssetNameEquals("Characters/Caroline"))
             {
@@ -108,6 +114,39 @@ namespace Everyone_is_Willy
             }
 
             if (asset.AssetNameEquals("Portraits/Caroline"))
+            {
+                return this.Helper.Content.Load<T>("Portraits/Willy", ContentSource.GameContent);
+            }
+
+            // Clint
+            if (asset.AssetNameEquals("Characters/Clint"))
+            {
+                return this.Helper.Content.Load<T>("Characters/Willy", ContentSource.GameContent);
+            }
+
+            if (asset.AssetNameEquals("Portraits/Clint"))
+            {
+                return this.Helper.Content.Load<T>("Portraits/Willy", ContentSource.GameContent);
+            }
+
+            // Demetrius
+            if (asset.AssetNameEquals("Characters/Demetrius"))
+            {
+                return this.Helper.Content.Load<T>("Characters/Willy", ContentSource.GameContent);
+            }
+
+            if (asset.AssetNameEquals("Portraits/Demetrius"))
+            {
+                return this.Helper.Content.Load<T>("Portraits/Willy", ContentSource.GameContent);
+            }
+
+            // Elliott
+            if (asset.AssetNameEquals("Characters/Elliott"))
+            {
+                return this.Helper.Content.Load<T>("Characters/Willy", ContentSource.GameContent);
+            }
+
+            if (asset.AssetNameEquals("Portraits/Elliott"))
             {
                 return this.Helper.Content.Load<T>("Portraits/Willy", ContentSource.GameContent);
             }
