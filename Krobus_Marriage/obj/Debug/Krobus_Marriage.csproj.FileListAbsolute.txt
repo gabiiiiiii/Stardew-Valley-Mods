@@ -1,0 +1,6 @@
+C:\Users\gabri\source\Repos\Stardew-Valley-Mods\Krobus_Marriage\bin\Debug\Krobus_Marriage.dll
+C:\Users\gabri\source\Repos\Stardew-Valley-Mods\Krobus_Marriage\bin\Debug\Krobus_Marriage.pdb
+C:\Users\gabri\source\Repos\Stardew-Valley-Mods\Krobus_Marriage\obj\Debug\Krobus_Marriage.csprojAssemblyReference.cache
+C:\Users\gabri\source\Repos\Stardew-Valley-Mods\Krobus_Marriage\obj\Debug\Krobus_Marriage.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\Repos\Stardew-Valley-Mods\Krobus_Marriage\obj\Debug\Krobus_Marriage.dll
+C:\Users\gabri\source\Repos\Stardew-Valley-Mods\Krobus_Marriage\obj\Debug\Krobus_Marriage.pdb

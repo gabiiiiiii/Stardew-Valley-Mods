@@ -1,11 +1,9 @@
-﻿  
-{
+﻿{
   "Name": "Krobus_Marriage",
   "Author": "Gabiiiiiii",
   "Version": "1.0.0",
   "Description": "Makes Krobus a marriage canidate",
   "UniqueID": "Gabiiiiiii.Krobus_Marriage",
-  "EntryDll": "Krobus_Marriage.dll",
   "MinimumApiVersion": "3.0.0",
   "ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher",
