@@ -17,7 +17,18 @@ namespace YourProjectName
         /// <param name="helper">Provides simplified APIs for writing mods.</param>
         public override void Entry(IModHelper helper)
         {
-            helper.Events.Input.ButtonPressed += this.OnButtonPressed;
+            helper.Events.GameLoop.TimeChanged += GameLoop_TimeChanged;
+        }
+
+        private void GameLoop_TimeChanged(object sender, TimeChangedEventArgs e)
+        {
+            if (e.NewTime == 2500)
+            {
+                IReflectedField<int> timePass = this.Helper.Reflection.GetField<int>(typeof(Game1), "timeOfDay");
+                timePass.SetValue(2400);
+                
+            }
+            //throw new NotImplementedException();
         }
 
 
@@ -27,14 +38,13 @@ namespace YourProjectName
         /// <summary>Raised after the player presses a button on the keyboard, controller, or mouse.</summary>
         /// <param name="sender">The event sender.</param>
         /// <param name="e">The event data.</param>
-        private void OnButtonPressed(object sender, ButtonPressedEventArgs e)
+        /*private void OnButtonPressed(object sender, ButtonPressedEventArgs e)
         {
             // ignore if player hasn't loaded a save yet
             if (!Context.IsWorldReady)
                 return;
 
-            // print button presses to the console window
-            this.Monitor.Log($"{Game1.player.Name} pressed {e.Button}.", LogLevel.Debug);
-        }
+            this.Helper.Reflection.GetField()
+        }*/
     }
 }
