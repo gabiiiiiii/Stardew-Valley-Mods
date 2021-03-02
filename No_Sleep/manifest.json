@@ -1,0 +1,10 @@
+{
+  "Name": "No_Sleep",
+  "Author": "Stroube",
+  "Version": "1.0.0",
+  "Description": "No need to go to bed.",
+  "UniqueID": "Stroube.No_Sleep",
+  "EntryDll": "No_Sleep.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}
