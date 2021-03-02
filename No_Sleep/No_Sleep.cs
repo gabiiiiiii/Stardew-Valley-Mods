@@ -20,6 +20,9 @@ namespace YourProjectName
             helper.Events.GameLoop.TimeChanged += GameLoop_TimeChanged;
         }
 
+        /*
+         * Private Methods
+         */
         private void GameLoop_TimeChanged(object sender, TimeChangedEventArgs e)
         {
             if (e.NewTime == 2500)
@@ -32,19 +35,6 @@ namespace YourProjectName
         }
 
 
-        /*********
-        ** Private methods
-        *********/
-        /// <summary>Raised after the player presses a button on the keyboard, controller, or mouse.</summary>
-        /// <param name="sender">The event sender.</param>
-        /// <param name="e">The event data.</param>
-        /*private void OnButtonPressed(object sender, ButtonPressedEventArgs e)
-        {
-            // ignore if player hasn't loaded a save yet
-            if (!Context.IsWorldReady)
-                return;
-
-            this.Helper.Reflection.GetField()
-        }*/
+        
     }
 }
