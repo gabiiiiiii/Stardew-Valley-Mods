@@ -10,7 +10,7 @@ using StardewValley;
 
 namespace Krobus_Marriage
 {
-    public class Class1 : Mod
+    public class Krobus_Marriage_Event : Mod
     {
         public override void Entry(IModHelper helper)
         {
