@@ -9,7 +9,7 @@ using StardewValley;
 namespace Custom_NPC
 {
     /// <summary>The mod entry point.</summary>
-    public class ModEntry : Mod, IAssetLoader, IAssetEditor
+    public class ModEntry : Mod, IAssetLoader
     {
         static int x = 1;
 
@@ -73,16 +73,6 @@ namespace Custom_NPC
             {
                 throw new NotImplementedException("Ya broke it");
             }
-        }
-
-        public bool CanEdit<T>(IAssetInfo asset)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Edit<T>(IAssetData asset)
-        {
-            throw new NotImplementedException();
         }
     }
 }
