@@ -63,11 +63,11 @@ namespace Custom_NPC
             }
             else if (asset.AssetNameEquals("Mods/Assets/Sprite/Spoop_Dog"))
             {
-                return;
+                return this.Helper.Content.Load<T>("Assets/Sprite/Spoop_Dog.png", ContentSource.ModFolder);
             }
             else if (asset.AssetNameEquals("Mods/Assets/Portrait/Spoop_Dog"))
             {
-                return;
+                return this.Helper.Content.Load<T>("Assets/Portrait/Spoop_Dog.png", ContentSource.ModFolder);
             }
             else
             {
