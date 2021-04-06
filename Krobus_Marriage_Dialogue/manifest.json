@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Krobus_Marriage_Dialogue",
+  "Author": "gabiiiiiii",
+  "Version": "1.0.0",
+  "Description": "Edits Krobus marriage dialogue for consistency.""
+  "UniqueID": "gabiiiiiii.Krobus_Marriage_Dialogue",
+  "EntryDll": "Krobus_Marriage_Dialogue.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}

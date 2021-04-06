@@ -1,0 +1,6 @@
+C:\Users\gabri\source\Repos\Krobus_Marriage_Dialogue\bin\Debug\Krobus_Marriage_Dialogue.dll
+C:\Users\gabri\source\Repos\Krobus_Marriage_Dialogue\bin\Debug\Krobus_Marriage_Dialogue.pdb
+C:\Users\gabri\source\Repos\Krobus_Marriage_Dialogue\obj\Debug\Krobus_Marriage_Dialogue.csprojAssemblyReference.cache
+C:\Users\gabri\source\Repos\Krobus_Marriage_Dialogue\obj\Debug\Krobus_Marriage_Dialogue.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\Repos\Krobus_Marriage_Dialogue\obj\Debug\Krobus_Marriage_Dialogue.dll
+C:\Users\gabri\source\Repos\Krobus_Marriage_Dialogue\obj\Debug\Krobus_Marriage_Dialogue.pdb
