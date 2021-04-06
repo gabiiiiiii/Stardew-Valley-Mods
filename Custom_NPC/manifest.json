@@ -1,0 +1,9 @@
+﻿{
+    "Name": "Custom_NPC",
+    "Author": "Austin Stroupe",
+    "Version": "1.0.0",
+    "Description": "Adding a basic NPC to the game.",
+    "UniqueID": "Stroupe.Custom_NPC",
+    "EntryDll": "Custom_NPC.dll",
+    "UpdateKeys": []
+}
