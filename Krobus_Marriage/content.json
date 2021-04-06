@@ -1,0 +1,20 @@
+﻿{
+	"Format": "1.19.0",
+	"Changes": [
+		{
+			"LogName": "NPC Manifestation",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": {
+				"Krobus": "adult/polite/shy/neutral/male/datable/null/Other/winter 1//Sewer 31 17/Krobus",
+			},
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Krobus",
+			"FromFile": "assets/Marriage_Krobus.png"
+		},
+
+		],
+}

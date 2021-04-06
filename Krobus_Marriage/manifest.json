@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Krobus_Marriage",
+  "Author": "Gabiiiiiii",
+  "Version": "1.0.0",
+  "Description": "Makes Krobus a marriage canidate",
+  "UniqueID": "Gabiiiiiii.Krobus_Marriage",
+  "ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		},
+  "UpdateKeys": [""],
+}
