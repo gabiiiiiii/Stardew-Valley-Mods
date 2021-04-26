@@ -25,20 +25,13 @@ namespace YourProjectName
          */
         private void GameLoop_TimeChanged(object sender, TimeChangedEventArgs e)
         {
-            /*if (e.NewTime == 2500)
+            if (e.NewTime == 2500)
             {
                 IReflectedField<int> timePass = this.Helper.Reflection.GetField<int>(typeof(Game1), "timeOfDay");
                 timePass.SetValue(2400);
                 
             }
-            //throw new NotImplementedException();*/
-
-            IReflectedField<bool> passOut = this.Helper.Reflection.GetField<bool>(Farmer, "passedOut");
-
-            if (passOut.GetValue())
-            {
-                passOut.SetValue(false);
-            }
+            //throw new NotImplementedException();
         }
 
 
