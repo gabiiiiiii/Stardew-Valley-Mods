@@ -1,0 +1,11 @@
+﻿{
+  "Name": "NPC",
+  "Author": "Gabiiiiiii",
+  "Version": "1.0.0",
+  "Description": "Spooky Ghost NPC",
+  "UniqueID": "Gabiiiiiii.NPC",
+    "ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		},
+  "UpdateKeys": [""],
+}

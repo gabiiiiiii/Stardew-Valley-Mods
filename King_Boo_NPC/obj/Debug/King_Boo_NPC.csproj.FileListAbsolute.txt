@@ -1,0 +1,5 @@
+C:\Users\gabri\source\Repos\Stardew_Mods\King_Boo_NPC\bin\Debug\King_Boo_NPC.dll
+C:\Users\gabri\source\Repos\Stardew_Mods\King_Boo_NPC\bin\Debug\King_Boo_NPC.pdb
+C:\Users\gabri\source\Repos\Stardew_Mods\King_Boo_NPC\obj\Debug\King_Boo_NPC.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\Repos\Stardew_Mods\King_Boo_NPC\obj\Debug\King_Boo_NPC.dll
+C:\Users\gabri\source\Repos\Stardew_Mods\King_Boo_NPC\obj\Debug\King_Boo_NPC.pdb
