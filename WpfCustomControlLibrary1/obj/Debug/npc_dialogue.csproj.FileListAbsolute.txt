@@ -1,2 +1,0 @@
-C:\Users\gabri\source\Repos\Stardew_Mods\WpfCustomControlLibrary1\obj\Debug\npc_dialogue.csprojAssemblyReference.cache
-C:\Users\gabri\source\Repos\Stardew_Mods\WpfCustomControlLibrary1\obj\Debug\npc_dialogue.csproj.GenerateResource.cache
