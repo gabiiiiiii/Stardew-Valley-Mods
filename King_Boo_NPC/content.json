@@ -4,12 +4,12 @@
         {
             "Action": "Load",
             "Target": "Characters/King Boo",
-            "FromFile": "assets/ghost_sprite.png",
+            "FromFile": "assets/king_boo.png",
         },
         {
             "Action": "Load",
             "Target": "Portraits/King Boo",
-            "FromFile": "assets/grandpa_portrait.png",
+            "FromFile": "assets/king_boo_portrait.png",
         },
         {
             "Action": "Load",
